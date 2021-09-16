@@ -1,5 +1,8 @@
 <?php
 //srediti namespace
+namespace prviZadacic\classes;
+use prviZadacic\interface\geometrijskoTelo;
+
     class trougao implements geometrijskoTelo{
 
         protected $a;

@@ -1,5 +1,9 @@
 <?php
 //srediti namespace
+namespace prviZadacic\classes;
+
+use prviZadacic\interface\geometrijskoTelo;
+
     class pravougaonik implements geometrijskoTelo{
 
         private $a;

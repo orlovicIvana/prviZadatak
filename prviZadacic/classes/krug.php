@@ -1,5 +1,8 @@
 <?php
 //srediti namespace
+namespace prviZadacic\classes;
+use prviZadacic\interface\geometrijskoTelo;
+
     class krug implements geometrijskoTelo{
 
         private $r = 3;

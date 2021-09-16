@@ -1,10 +1,15 @@
 <?php
-    include 'geometrijskoTelo.php';
-    include 'krug.php';
-    include 'kvadrat.php';
-    include 'pravougaonik.php';
-    include 'trougao.php';
+    //include 'geometrijskoTelo.php';
+    //include 'krug.php';
+    //include 'kvadrat.php';
+    //include 'pravougaonik.php';
+    //include 'trougao.php';
+
+    use prviZadacic\classes;
+    use prviZadacic\interface ;
+    
     //srediti namespace
+    //include 'prviZadacic/autoloader.php';
 
     $k = new krug(2);
     echo "Povrsina kruga je ". $k->izracunajPovrsinu() . ", a obim je " . $k->izracunajObim() . "\n";
