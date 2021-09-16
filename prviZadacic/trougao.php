@@ -1,10 +1,18 @@
 <?php
-    class trougao extends geometrijskoTelo{
+    class trougao implements geometrijskoTelo{
 
-        protected $a = 2;
-        protected $b = 3;
-        protected $c = 4;
-        protected $ha = 5;
+        protected $a;
+        protected $b;
+        protected $c;
+        protected $ha;
+
+        public function __construct($a, $b, $c, $ha){
+
+            $this->a = $a;
+            $this->b = $b;
+            $this->c = $c;
+            $this->ha = $ha;
+        }
 
         public function izracunajPovrsinu(){
 

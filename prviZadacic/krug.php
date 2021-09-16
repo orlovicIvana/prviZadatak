@@ -1,7 +1,12 @@
 <?php
-    class krug extends geometrijskoTelo{
+    class krug implements geometrijskoTelo{
 
         private $r = 3;
+
+        public function __construct($r){
+
+            $this->r = $r;
+        }
 
         public function izracunajPovrsinu(){
 

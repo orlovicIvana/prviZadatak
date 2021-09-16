@@ -1,8 +1,15 @@
 <?php
-    class pravougaonik extends geometrijskoTelo{
+    class pravougaonik implements geometrijskoTelo{
 
-        private $a = 2;
-        private $b = 3;
+        private $a;
+        private $b;
+
+        public function __construct($a, $b){
+
+            $this->a = $a;
+            $this->b = $b;
+
+        }
 
         public function izracunajPovrsinu(){
 

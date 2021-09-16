@@ -1,7 +1,12 @@
 <?php
-    class kvadrat extends geometrijskoTelo{
+    class kvadrat implements geometrijskoTelo{
 
         private $a = 2;
+
+        public function __construct($a){
+
+            $this->a = $a;
+        }
 
         public function izracunajPovrsinu(){
 

@@ -1,7 +1,7 @@
 <?php
-    abstract class geometrijskoTelo{
+    interface geometrijskoTelo{
 
-        abstract public function izracunajPovrsinu();
-        abstract public function izracunajObim();
+        public function izracunajPovrsinu();
+        public function izracunajObim();
     }
 ?>
