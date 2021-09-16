@@ -1,4 +1,5 @@
 <?php
+//srediti namespace
     class trougao implements geometrijskoTelo{
 
         protected $a;

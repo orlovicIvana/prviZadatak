@@ -1,4 +1,5 @@
 <?php
+//srediti namespace
     class kvadrat implements geometrijskoTelo{
 
         private $a = 2;

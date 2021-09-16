@@ -1,4 +1,5 @@
 <?php
+//srediti namespace
     class krug implements geometrijskoTelo{
 
         private $r = 3;

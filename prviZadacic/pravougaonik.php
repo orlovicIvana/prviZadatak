@@ -1,4 +1,5 @@
 <?php
+//srediti namespace
     class pravougaonik implements geometrijskoTelo{
 
         private $a;

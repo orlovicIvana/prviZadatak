@@ -4,6 +4,7 @@
     include 'kvadrat.php';
     include 'pravougaonik.php';
     include 'trougao.php';
+    //srediti namespace
 
     $k = new krug(2);
     echo "Povrsina kruga je ". $k->izracunajPovrsinu() . ", a obim je " . $k->izracunajObim() . "\n";
