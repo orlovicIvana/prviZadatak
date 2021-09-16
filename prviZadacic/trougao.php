@@ -8,12 +8,12 @@
 
         public function izracunajPovrsinu(){
 
-            return ($this->$a * $this->$ha) / 3;
+            return ($this->a * $this->ha) / 3;
         }
 
         public function izracunajObim(){
 
-           return ($this->$a + $this->$b + $this->$c) / 2;
+           return ($this->a + $this->b + $this->c) / 2;
         }
     }
 ?>
