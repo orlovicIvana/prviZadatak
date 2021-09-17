@@ -4,7 +4,7 @@
     use classes\kvadrat;
     use classes\pravougaonik;
     use classes\trougao;
-    use interfaces\geometrijskoTelo;
+    //use interfaces\geometrijskoTelo;
 
     include 'autoloader.php';
    
