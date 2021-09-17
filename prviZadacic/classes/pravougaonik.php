@@ -2,7 +2,7 @@
 //srediti namespace
 namespace prviZadacic\classes;
 
-use prviZadacic\interface\geometrijskoTelo;
+use prviZadacic\interfaces\geometrijskoTelo;
 
     class pravougaonik implements geometrijskoTelo{
 

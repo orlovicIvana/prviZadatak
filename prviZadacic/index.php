@@ -5,8 +5,8 @@
     //include 'pravougaonik.php';
     //include 'trougao.php';
 
-    use prviZadacic\classes;
-    use prviZadacic\interface ;
+    use prviZadacic\classes\;
+    use prviZadacic\interfaces ;
     
     //srediti namespace
     //include 'prviZadacic/autoloader.php';

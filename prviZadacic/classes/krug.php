@@ -1,11 +1,11 @@
 <?php
 //srediti namespace
 namespace prviZadacic\classes;
-use prviZadacic\interface\geometrijskoTelo;
+use prviZadacic\interfaces\geometrijskoTelo;
 
     class krug implements geometrijskoTelo{
 
-        private $r = 3;
+        private $r;
 
         public function __construct($r){
 

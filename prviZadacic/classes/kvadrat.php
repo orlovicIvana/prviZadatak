@@ -1,7 +1,7 @@
 <?php
 //srediti namespace
 namespace prviZadacic\classes;
-use prviZadacic\interface\geometrijskoTelo;
+use prviZadacic\interfaces\geometrijskoTelo;
 
     class kvadrat implements geometrijskoTelo{
 
