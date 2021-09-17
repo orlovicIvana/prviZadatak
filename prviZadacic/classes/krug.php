@@ -1,7 +1,10 @@
 <?php
 //srediti namespace
-namespace prviZadacic\classes;
-use prviZadacic\interfaces\geometrijskoTelo;
+//namespace prviZadacic\classes;
+//namespace geoTela;
+
+//use prviZadacic\interfaces\geometrijskoTelo;
+require 'interfaces/geometrijskoTelo.php';
 
     class krug implements geometrijskoTelo{
 

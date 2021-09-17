@@ -5,11 +5,11 @@
     //include 'pravougaonik.php';
     //include 'trougao.php';
 
-    use prviZadacic\classes\;
-    use prviZadacic\interfaces ;
+    //use geoTela;
     
     //srediti namespace
-    //include 'prviZadacic/autoloader.php';
+    include 'autoloader.php';
+    //use interfaces\geometrijskoTelo;
 
     $k = new krug(2);
     echo "Povrsina kruga je ". $k->izracunajPovrsinu() . ", a obim je " . $k->izracunajObim() . "\n";

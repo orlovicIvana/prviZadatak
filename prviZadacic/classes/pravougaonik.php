@@ -1,8 +1,10 @@
 <?php
 //srediti namespace
-namespace prviZadacic\classes;
+//namespace prviZadacic\classes;
+//namespace geoTela;
 
-use prviZadacic\interfaces\geometrijskoTelo;
+//use prviZadacic\interfaces\geometrijskoTelo;
+require 'interfaces/geometrijskoTelo.php';
 
     class pravougaonik implements geometrijskoTelo{
 

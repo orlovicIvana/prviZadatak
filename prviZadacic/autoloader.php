@@ -4,16 +4,10 @@
 
     function myAutoLoader($className){
 
-        /*$path = "prviZadacic/classes/";
+        $path = "classes/";
         $extension = ".php";
-        $fullPath = $path . $class . $extension;
+        $fullPath = $path . $className . $extension;
 
-        include_once $fullPath;*/
-        if(file_exists(filename: 'prviZadacic/classes/' . $className . '.php'))
-            include_once 'prviZadacic/classes/' . $className . '.php';
-        else if(file_exists(filename: 'prviZadacic/interface/' . $className . '.php'))
-            include_once 'prviZadacic/interface/' . $className . '.php';
-        else
-            include_once $className . '.php';
+        include_once $fullPath;
     }
 ?>
