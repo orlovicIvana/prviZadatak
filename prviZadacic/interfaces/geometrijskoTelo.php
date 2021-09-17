@@ -1,6 +1,6 @@
 <?php
-//srediti namespace
-//namespace prviZadacic\interfaces;
+
+namespace interfaces;
 
     interface geometrijskoTelo{
 

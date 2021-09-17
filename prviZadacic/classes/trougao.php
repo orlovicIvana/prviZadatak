@@ -1,9 +1,8 @@
 <?php
-//srediti namespace
-//namespace prviZadacic\classes;
-//namespace geoTela;
-//use prviZadacic\interfaces\geometrijskoTelo;
-require 'interfaces/geometrijskoTelo.php';
+
+namespace classes;
+use interfaces\geometrijskoTelo;
+
 
     class trougao implements geometrijskoTelo{
 
