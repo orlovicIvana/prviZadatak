@@ -4,11 +4,10 @@
 
     function myAutoLoader($className){
 
-    
-        $extension = ".php";
-        $fullPath = strtolower($className) . $extension;
 
+        $fullPath= str_replace("\\",DIRECTORY_SEPARATOR, strtolower($className)) .".php";
         include_once $fullPath;
+
     }
 
     
